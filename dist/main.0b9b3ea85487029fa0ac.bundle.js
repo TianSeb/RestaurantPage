@@ -141,7 +141,7 @@ function aboutTab() {
 
     about.appendChild(createParagraph("I wanted to create the perfect food."));
     about.appendChild(imagen);
-    about.appendChild(createParagraph("Thats why in dont believe in biology, I believe in Love"));
+    about.appendChild(createParagraph("Thats why in dont believe in recipes, I believe in Love"));
     body.appendChild(about);
 }
 
@@ -174,10 +174,10 @@ function menuTab() {
     menu.classList.add("menu");
 
     //imgs
-    menu.appendChild(createImage("Argollinas", "Shells with delicious whale vaginal flux"));
+    menu.appendChild(createImage("Argollinas", "Shells with delicious sauce"));
     menu.appendChild(createImage("Penneringo","House specialty. An orgasmic volcano of flavours"));
-    menu.appendChild(createImage("Testicutoros", "Big Balls from a Big Bull, with lots of Semen inside"));
-    menu.appendChild(createImage("Tetasmonja", "God´s breast, filled with lot of milk"));
+    menu.appendChild(createImage("Testicutoros", "Big Balls from a Big Bull"));
+    menu.appendChild(createImage("Tetasmonja", "For Dessert"));
 
     body.appendChild(menu);
 }
