@@ -1,0 +1,120 @@
+body {
+    background-color: pink;
+    font-family: 'Brush Script MT', cursive,'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    margin:0;
+
+}
+
+#title {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#content {
+    text-align: center;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+}
+
+.menu-tab {
+    color:seashell;
+    font-size: 2.5rem;
+    float: left;
+    width: 200px;
+    border: 1px solid white;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.12), 0 1px 4px rgba(255, 255, 255, 0.5);
+    margin: 0px 20px;
+}
+
+/* About */
+.about {
+    height: 500px;
+    width: 600px;
+    align-items: center;
+    margin:auto;
+}
+
+.about p {
+    font-size: 1.8rem;
+    width: 550px;
+    height: 50px;
+    margin-top: 35px;
+  }
+  
+  .about img {
+    width: 35%;
+    height: 35%;
+    opacity: 90%;
+    margin:auto;
+  }
+
+  /* Menu */
+
+.menu {
+    width: 800px;
+    margin: auto;  
+    padding-top: 2rem;
+}
+  
+  .menu-item {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    padding: 3rem;
+    cursor: pointer;
+    margin:15px;
+    box-shadow: 0 1px 6px rgba(189, 165, 165, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  }
+  
+  .menu-item:hover {
+    background-color:bisque;
+  }
+  
+  .menu-item img {
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+  }
+  
+  .menu-item h2 {
+    font-size: 2.5rem;
+    margin: 20px 15px 15px;
+    }
+  
+  .menu-item p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  /* Contact */
+
+  .contact {
+    margin: 15px;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact img {
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+  }
