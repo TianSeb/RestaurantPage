@@ -11,7 +11,7 @@ export default function aboutTab() {
 
     about.appendChild(createParagraph("I wanted to create the perfect food."));
     about.appendChild(imagen);
-    about.appendChild(createParagraph("Thats why in dont believe in biology, I believe in Love"));
+    about.appendChild(createParagraph("Thats why in dont believe in recipes, I believe in Love"));
     body.appendChild(about);
 }
 
